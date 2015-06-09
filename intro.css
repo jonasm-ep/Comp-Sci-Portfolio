@@ -1,0 +1,118 @@
+/*
+    Document   : aboutme.css
+    Created on : 2015-06-05 09:43 PM
+    Author     : OCULUS
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+root{
+    display:block;
+}
+#navbar{
+	height: 380px;
+	width: 400px;
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color: #787878 ;
+	float:right;
+	margin-top:118px;
+	position:fixed;
+	clear:both;
+	margin-left:880px;
+	display:inline-block;
+
+}
+#navbar li {
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #6495ED;
+	height:12.65%;
+	width:98%;
+	list-style-type:none;
+	margin: 2px 2px 2px 2px;
+	transition: all .8s ease;
+	text-align:center;
+	font-size:28px;
+	
+}
+body {
+	border:15px solid #66FF66;
+	background-image:url("http://i1.sndcdn.com/artworks-000048910692-j1m7q4-original.jpg?30a2558");
+}
+a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+a:hover{
+	color:#6495ED;
+}
+h1{
+	color:darkblue;
+	text-align:center;
+	border:7px solid black;
+	background-color:#A8A8A8;
+	font-size:50px;
+	text-shadow: 5px 5px 3px #00FF00;
+	margin-top:10px;}
+.spin{
+    margin-left:150px;
+	height:375px;width:510px;
+	border:5px solid black;
+	-webkit-animation: spin 3s infinite linear;
+    animation: spin 3s infinite linear;
+	margin-top:100px;
+	padding:0;
+	float:inherit;
+}
+#under{
+    padding-top:125px;
+}
+
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(180deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(180deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(180deg);
+        -o-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+}
+
+#navbar li:hover{
+    background-color:#3333CC;
+}
+ol li{
+	border:5px solid black;
+	background-color:#888888;
+	font-size:16px;
+	margin-right:450px;
+	border-radius:10px;
+	list-style-type:none;}
+div{
+	margin:4px 4px 4px 4px;
+}
+#unspin{
+	background-color:#A8A8A8;
+	border: 10px solid black;
+	border-radius:20px;
+	margin-left:50px;
+	margin-right:500px;
+}
+#unspin td img{
+	margin:3px 3px 3px;
+	height:250px;
+	width:250px;
+}
+table td{
+	border:4px solid black;
+}
+root{
+    display:block;
+}

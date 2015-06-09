@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>DuelingGunmen</title>
+    <link rel="stylesheet" type="text/css" href="w5.css">
+</head>
+<body>
+    <!--future reference: fix navbar to work-->
+    <div id="navbar" style="right:60px; top:160px;">
+	                <li><a href="index.html">Introduction</a></li>
+					<li><a href="aboutme.html">About Me!</a></li>
+					<li><a href="htmlandcsspage.html">What is HTML and CSS?</a></li>
+					<li><a href="comphardware.html">Computer Hardware</a></li>
+					<li><a href="calc.html">Calculator</a></li>
+					<li><a href="ouradventure.html">A Mysterious Quest</a></li>
+					<li><a href="vindinium.html">Vindinium</a></li>
+	</div>
+    <h1 id="header">The Dueling Gunmen</h1>
+<!--Music Drop Down Menu-->
+<form name="musicPlayer" action="" method="">
+    <select name="" id="musicDropDown" oninput="playMusic()" size="1" style="bottom:50px;left:700px">
+        <option value="none">Choose The Music You Want to Play</option>
+        <option value="Fire Emblem">Fire Emblem - Together We Ride</option>
+        <option value="Pokemon Music">Pokemon Battle</option>
+<!--         <option value="Pokemon Music 2">Pokemon Battle Music 2</option> -->
+        <option value="The Edge of Green">Radiant Historia - The Edge Of Green</option>
+        <option value="Stick Wars">Stick Wars - Entering The Stronghold</option>
+    </select>
+</form>
+<!--Game music-->
+    <audio id="gameMusic" loop>
+        <source src="gameMusic.mp3" type="audio/mpeg">
+    </audio>
+<!--     <audio id="pokemonMusic1" loop>
+        <source src="pokemonMusic1.mp3" type="audio/mpeg">
+    </audio> -->
+    <audio id="pokemonMusic" loop>
+        <source src="pokemonMusic.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="theEdgeGreenMusic" loop>
+        <source src="theEdgeGreen.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="stickWarsMusic" loop>
+        <source src="stickWars.mp3" type="audio/mpeg">
+    </audio>
+    <!--Game sound Effects-->
+    <audio id="hitEfx">
+        <source src="hitEfx.wav" type="audio/wav">
+    </audio>
+    <audio id="gameStartEfx">
+        <source src="gameStartEfx.ogg" type="audio/ogg">
+    </audio>
+    <audio id="gameOverEfx" >
+        <source src="gameOverEfx.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="shootingEfx">
+        <source src="shootingEfx.wav" type="audio/wav" loop>
+    </audio>
+    <img id="soldierImg" src="http://www.thinkvector.com/wp-content/uploads/2013/02/army-with-gun-TN-300x220.png">
+    <button id="button" type="button" onclick="startButton()">Click to Start Game</button>
+    <form method="link" action="w5.html">
+        <input type="submit" value="Reset" id="resetButton" style="right:100px;top:560px;" >
+    </form>
+    <!--Player Objects-->
+    <div id="player1" style="left: 310px; top: 215px;">
+        <p>1</p>
+    </div>
+    <div id="player2" style = "left:1000px; top: 215px;"> <!--right:310px;-->
+        <p>2</p>
+    </div>
+    <div id="instructions" style="top:175px; left:180px">
+        <h2>How to play:</h2>
+        <h3>Player 1 - Q to go up, A to go down, S to shoot.<div>Player 2 - P to go up, L to go down, K to shoot.</div>*Each player has 3 lives!</h3>
+    </div>
+    <div id="note" style="top:525px; right:195px">
+        <h4>*Note: This game requires 2 players!</h4>
+    </div>
+    <div id="note2" style="top:525px; left:150px">
+        <h4>*Turn on speakers for sound effects and music!</h4>
+    </div>
+    <div id="p1Wins" style="top:40px; left:500px;">
+        Player 1 Wins! Click Reset!
+    </div>
+    <div id="p2Wins" style="top:40px; left:500px;">
+        Player 2 Wins! Click Reset!
+    </div>
+   <div id="musicPlayerDiv" style="top:550px; left:570px">
+       <b>Music Playing ></b>
+    </div>
+    <!--lives-->
+    <div id="lives" style="top:540px; left:15px;">Lives</div>
+    <div id="livesA" style="top:495px">
+        <h5>P1:</h5>
+    </div>
+    <div id="livesB" style="left:300px; top:495px;">
+        <h5>P2:</h5>
+    </div>
+    <div id="lives1" style="left:85px; top:582px;"></div>
+    <div id="lives2" style="left:115px; top:582px;"></div>
+    <div id="lives3" style="left:145px; top:582px;"></div>
+    <div id="lives4" style="left:370px; top:582px;"></div>
+    <div id="lives5" style="left:400px; top:582px;"></div>
+    <div id="lives6" style="left:430px; top:582px;"></div>
+    <script src="w5.js"></script>
+</body>
+</html>

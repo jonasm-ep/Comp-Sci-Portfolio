@@ -1,0 +1,272 @@
+/*
+    Document   : w5.css
+    Created on : 2015-03-09 05:21 PM
+    Author     : OCULUS
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+body{
+    background-image:url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbEPkRfgPlIeYRCZzA1Pa6DhNgXch-2YbbUJsqBxGcoTJTHFINUg");
+    border: 8px solid black;
+}
+h1{
+    text-shadow: 3px 4px 4px #003399;
+    font-size:50px;
+    text-align:center;
+    font-family: sans-serif;
+}
+#button{
+    height:100px;
+    width:200px;
+    font-size:35px;
+    margin-left:575px;    
+    margin-top:75px;
+    margin-bottom:60px;
+    border-radius:10px;
+}
+#resetButton{
+    visibility:hidden;
+    position:absolute;
+    height:55px;
+    width:120px;
+    font-size:25px;
+    border-radius:10px;
+}
+#resetButton:hover{
+    border:5px solid black;
+    border-radius:10px;
+    transition:.3s ease;
+}
+button:hover{
+    border:5px solid black;
+    border-radius:10px;
+    transition:.3s ease;
+}
+
+img{/*soldierImg*/
+    margin-left:515px;
+    border:8px solid black;
+    border-radius:10px;
+}
+#player1{
+    position:absolute;
+    border:3.5px solid black;
+    border-radius:15px;
+    left: 310px; 
+    top: 290px; 
+    background-color: blue; 
+    color:black; 
+    width:60px; 
+    height:60px; 
+    visibility:hidden;
+}
+#player2{
+    position:absolute;
+    border:3.5px solid black;
+    border-radius:15px;
+    background-color: red; 
+    color:black; 
+    width:60px; 
+    height:60px; 
+    visibility:hidden;
+}
+p{
+    position:absolute;
+    bottom:-17px; 
+    left:22px;
+    text-align:center; 
+    font-size:30px;
+}
+.bullet1{
+    background-color:blue; 
+    height:9px; 
+    width:9px;
+    position:absolute;
+    border:2px solid black;
+    border-radius:100px;
+}
+.bullet2{
+    background-color:red; 
+    height:10px; 
+    width:10px;
+    position:absolute;
+    border:2px solid black;
+    border-radius:100px;
+}
+#instructions{
+    border:5px solid black;
+    border-radius:10px;
+    background-color:gray;
+    height:240px;
+    width:200px;
+    position:absolute; 
+    box-shadow: 5px 7px 5px #303030;
+}
+h2{
+    margin:10px 10px 10px 10px;
+}
+h3{
+    margin:10px 10px 10px 10px;
+}
+h4{
+    margin:5px 5px 5px 5px;
+}
+#note{
+    position:absolute;
+    border:3px solid black;
+    border-radius: 5px;
+    background-color:gray;
+    height:30px;
+    box-shadow: 5px 7px 5px #303030;
+}
+#note2{
+    position:absolute;
+    border:3px solid black;
+    border-radius: 5px;
+    background-color:gray;
+    height:30px;
+    box-shadow : 5px 5px 5px #303030;
+}
+/*navbar*/
+#navbar{  
+    box-shadow: 5px 7px 5px #303030;
+	position:absolute;
+	display:inline-block;
+	background-color:gray;
+	border:4px solid black;
+	border-radius:5px;
+	width:300px;
+}
+#navbar li{   
+    text-align:center;
+	list-style-type:none;
+	transition: all .6s ease;
+	border:2px solid black;
+	margin:5px 5px 5px 5px;
+}
+#navbar li:hover{
+	background-color:#a8a8a8;
+}
+a{
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+}
+a:hover{
+	color:#404040 ;
+	font-size:25px;
+}
+#lives{
+    border:2px solid black;
+    position:absolute;
+    background-color:white;
+    font-size:20px;
+    border-radius:5px;
+    visibility:hidden;
+    width:450px;
+    text-align:center;
+}
+#livesA{
+    color:blue;
+    position:absolute;
+    visibility:hidden;
+    font-size:50px;
+}
+#livesB{
+    color:red;
+    position:absolute;
+    visibility:hidden;
+    font-size:50px;
+}
+#lives1{
+    background-color:blue; 
+    height:20px; 
+    width:20px;
+    position:absolute;
+    border:3px solid black;
+    border-radius:5px;
+    visibility:hidden;
+}
+#lives2{
+    background-color:blue; 
+    height:20px; 
+    width:20px;
+    position:absolute;
+    border:3px solid black;
+    border-radius:5px;
+    visibility:hidden;
+}
+#lives3{
+    background-color:blue; 
+    height:20px; 
+    width:20px;
+    position:absolute;
+    border:3px solid black;
+    border-radius:5px;
+    visibility:hidden;
+}
+#lives4{
+    background-color:red; 
+    height:20px; 
+    width:20px;
+    position:absolute;
+    border:3px solid black;
+    border-radius:5px;
+    visibility:hidden;
+}
+#lives5{
+    background-color:red; 
+    height:20px; 
+    width:20px;
+    position:absolute;
+    border:3px solid black;
+    border-radius:5px;
+    visibility:hidden;
+}
+#lives6{
+    background-color:red; 
+    height:20px; 
+    width:20px;
+    position:absolute;
+    border:3px solid black;
+    border-radius:5px;
+    visibility:hidden;
+}
+#p1Wins{
+    position:absolute;
+    visibility:hidden;
+    border:5px solid black;
+    background-color:blue;
+    font-size:30px;
+    border-radius:8px;
+}
+#p2Wins{
+    position:absolute;
+    visibility:hidden;
+    border:5px solid black;
+    background-color:red;
+    font-size:30px;
+    border-radius:7px;
+}
+#musicDropDown{
+    position:absolute;
+    height:40px;
+    visibility:hidden;
+    border:3px solid black;
+    border-radius:5px;
+}
+#musicPlayerDiv{
+    position:absolute;
+    border:5px solid black;
+    background-color:gray;
+    border-radius:7px;
+    visibility:hidden;
+    box-shadow: 5px 7px 5px #303030;
+}
+
+

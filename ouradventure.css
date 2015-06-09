@@ -1,0 +1,101 @@
+/*
+    Document   : ouradventure.css
+    Created on : 2015-06-08 06:05 PM
+    Author     : OCULUS
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+body{
+	background: #003333;
+	font-family:Verdana;
+	border:10px solid #009966;
+	border-radius:10px;
+}
+
+h1{
+	background-color:#009966;
+	border:6px solid black;
+	text-align:center;
+	text-shadow: 3px 3px 3px #003399;
+	margin-left:175px;
+	margin-right:175px;
+	border-radius:15px;
+}
+
+h6{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+button{
+	margin-bottom:50px;
+	text-align:center;
+}
+h1 img{
+	height:250px;
+	width:200px;
+}
+#myImg{
+	margin-left:290px;
+	margin-top:10px;
+	margin-bottom:10px;	
+} 
+#console{
+	background-color:gray;
+	border:3px solid black;
+	margin-left:10px;
+	float:left;
+	margin-right:10px;
+	visibility:hidden;
+}
+#navbar {
+        margin-left:500px;
+        background-color:#009966;
+        width:300px;
+        margin-top:5px;
+        margin-bottom:20px;
+		position:absolute;
+		height: 230px;
+		border-radius:15px; 
+		border:2px solid black;
+}
+#navbar li {
+	list-style-type:none;
+            background-color:#003333;
+            margin:5px 5px 5px 5px;
+            text-align:center;
+            transition: all .6s ease;
+			height:27px;
+}
+a:hover{
+	color:#3366CC;
+}
+a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#navbar li:hover{
+	font-size:20px;
+	background-color:#0099FF;
+}
+#myBtn1{
+	border-radius:2px;
+	height:40px;
+	position:absolute
+}
+#myBtn2{
+	border-radius:2p;
+	height:40px;
+	position:absolute;
+}
+#reset{
+	border-radius:2px;
+	height:40px;
+	position:absolute;
+}
+

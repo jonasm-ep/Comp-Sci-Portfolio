@@ -40,6 +40,8 @@ root {
 }
 #navbar li:hover{
     background-color:#3333CC;
+	transform: rotate(3deg);
+	
 }
 a{
     color:#FFFFFF;text-decoration:none;
@@ -82,4 +84,10 @@ table td{
 }
 #link p{
     margin-left:75px;border:10px solid black;background-color:#A8A8A8;width:700px;height:50px;font-size:20px;
+}
+strong{
+	transition:all .5s ease;
+}
+strong:hover{
+	font-size:25px;
 }

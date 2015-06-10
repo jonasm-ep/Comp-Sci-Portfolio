@@ -73,7 +73,11 @@ div, div{
 }
 #navbar li:hover{
 	font-size:20px;
-	background-color:#0099FF;}
+	background-color:#0099FF;
+    transform: rotate(3deg);
+}
+
+
 a{
 	color:#FFFFFF;
 	text-decoration:none;

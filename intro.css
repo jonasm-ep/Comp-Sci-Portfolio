@@ -36,7 +36,10 @@ root{
 	transition: all .8s ease;
 	text-align:center;
 	font-size:28px;
-	
+}
+#navbar li:hover{
+    background-color:#3333CC;
+	transform: rotate(3deg);
 }
 body {
 	border:15px solid #66FF66;
@@ -48,6 +51,7 @@ a{
 }
 a:hover{
 	color:#6495ED;
+	
 }
 h1{
 	color:darkblue;
@@ -83,10 +87,6 @@ h1{
         -o-transform:rotate(180deg);
         transform:rotate(180deg);
     }
-}
-
-#navbar li:hover{
-    background-color:#3333CC;
 }
 ol li{
 	border:5px solid black;

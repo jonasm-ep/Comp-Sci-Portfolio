@@ -82,6 +82,7 @@ a{
 #navbar li:hover{
 	font-size:20px;
 	background-color:#0099FF;
+	transform: rotate(3deg);
 }
 #myBtn1{
 	border-radius:2px;

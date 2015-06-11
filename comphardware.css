@@ -11,7 +11,7 @@ root {
     display: block;
 }
 #navbar{
-	height: 380px;
+	height: 360px;
 	width: 400px;
 	border: 2px solid black;
 	border-radius: 8px;
@@ -30,7 +30,7 @@ root {
 	color: #ffffff;
 	border-radius: 5px 5px;
 	background-color: #6495ED;
-	height:10.85%;
+	height:12.53%;
 	width:98%;
 	list-style-type:none;
 	margin: 2px 2px 2px 2px;

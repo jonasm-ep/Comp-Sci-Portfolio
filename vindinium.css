@@ -93,3 +93,15 @@ td{
 #v7{
 	margin-bottom:10px;
 }
+#thanklink a{
+	color:white;
+}
+.link:hover{
+	font-size:25px;
+	transition:all.4s ease;
+	transform: rotate(360deg);
+}
+#thanklink{
+	margin: 30px 30px 30px 30px;
+	font-size:15px;
+}

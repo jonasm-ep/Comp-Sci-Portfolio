@@ -19,6 +19,7 @@ body{
 	border:5px solid black;
 	border-radius:10px;
 	opacity:0.85;
+	position:fixed;
 }
 #navbar li{
 	list-style-type:none;
@@ -48,6 +49,7 @@ a:hover{
 	width:650px;
 	position:absolute;
 	border-radius:10px;
+	margin-bottom:80px;
 }
 h2{
 	margin:10px 10px 10px 10px;

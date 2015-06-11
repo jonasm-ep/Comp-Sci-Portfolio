@@ -1,0 +1,54 @@
+/*
+    Document   : thanks.css
+    Created on : 2015-06-10 09:56 PM
+    Author     : OCULUS
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+body{
+	background-image:url("http://cdn.superbwallpapers.com/wallpapers/computers/binary-code-9004-1920x1200.jpg");
+}
+#navbar{
+	position:absolute;
+	background-color:gray;
+	border:5px solid black;
+	border-radius:10px;
+	opacity:0.85;
+}
+#navbar li{
+	list-style-type:none;
+	text-align:center;
+	margin: 10px 10px 10px 10px;
+	border:2px solid black;
+	transition:all .5s ease;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+}
+#navbar li:hover{
+	background-color:#a8a8a8;
+	transform: rotate(3deg);
+}
+a:hover{
+	color:#404040 ;
+	font-size:30px;
+}
+#thanks{
+	background-color:gray;
+	border: 10px solid black;
+	font-size:50px;
+	opacity: 0.85;
+	width:650px;
+	position:absolute;
+	border-radius:10px;
+}
+h2{
+	margin:10px 10px 10px 10px;
+}

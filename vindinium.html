@@ -16,7 +16,8 @@ To change this template use Tools | Templates.
 					<li><a href="comphardware.html">Computer Hardware</a></li>
 					<li><a href="calc.html">Calculator</a></li>
 					<li><a href="ouradventure.html">A Mysterious Quest</a></li>
-					<li><a href="w5.html">The Dueling Gunmen</a></li>	
+					<li><a href="w5.html">The Dueling Gunmen</a></li>
+					<li><a href="thanks.html">Thank You!</a></li>
 </div>
 <div id="playerimgs" style="right:605px; top:80px;">
 	<img src="http://vindinium.org/assets/img/ui/player1.png"/>
@@ -46,7 +47,7 @@ To change this template use Tools | Templates.
 						<td><strong>When a bot is adjacent a to another bot, one of the bots will either attack or run depending on their turn and how the bot is programmed. Bots cannot attack diaganolly.</strong></td>
 					</tr>
 					<tr>
-						<td><img src="v2.png"/></td>
+						<td><img src="v2.png" id="v2"/></td>
 					</tr>
 					<tr>
 						<td><strong>When the bots have a low health, they can choose to go to one out of four taverns on the map to heal themselves. Healing costs two gold.</strong></td>
@@ -55,19 +56,37 @@ To change this template use Tools | Templates.
 						<td><strong>Once the turn reaches 1200, the game ends and the bot with who earned the most gold in the game wins and is displayed on the screen.</strong></td>
 					</tr>
 					<tr>
-						<td><img src="v3.png"/></td>
+						<td><img src="v3.png" id="v3"/></td>
 					</tr>
 					<tr>
 						<td><h2>My AI Bot</h2></td>
 					</tr>
 					<tr>
-						<td><strong>For Vindinium, I created my own bot to compete in the game. I programmed my bot to do multiple tasks including going to a tavern when its health is low, steal mines owned by other players, and attacking the players with the lowest health. We as a class used JavaScipt to program our bots our bots.</strong></td>
+						<td><strong>For Vindinium, I created my own bot to compete in the game. I programmed my bot to do multiple tasks including going to a tavern when its health is low, steal mines owned by other players, and attacking the players with the lowest health. We as a class used JavaScipt to program our bots.</strong></td>
 					</tr>
 					<tr>
-						<td><strong>Now, I am going to show you parts of my code and how they work to program what my bot does in the game.</strong></td>
+						<td><strong>Now, I am going to show a few parts of my code and explain what they do to create an understanding of how AI works.</strong></td>
 					</tr>
 					<tr>
-						<td><img src="v4.png"/></td>
+						<td><img src="v4.png" id="v4"/></td>
+					</tr>
+					<tr>
+						<td><strong>This is the code for the set of arrays for all the enemy bots and the mines owned by the enemy bots. These arrays are used later in the functions.</strong></td>
+					</tr>
+					<tr>
+						<td><img src="v5.png" id="v5"/></td>
+					</tr>
+					<tr>
+						<td><strong>This is the code for where my bot will go after the weakest player who has a health lower than 25. In the checkGoodTarget function, it is shown that the function will return true (run the function) if the health of an enemy bot is less than 25 or else it will return false (not run the function). The next if statemenet basically tells the bot where to go to find the bot that he needs to attack if the function is runned. Bot.findPath is used to find the path from myPos (my bot's position) to the x and y positions of the enemyBots[target].</strong></td>
+					</tr>
+					<td>
+						<img src="v6.png" id="v6"/>
+					</td>
+					<tr>
+						<td><img src="v7.png" id="v7"/></td>
+					</tr>
+					<tr>
+						<td>Above is one of the tasks I programmed my bot to do. This task tells my bot to go and heal at a tavern when its life is less than 61. The first if statement states that if my bot's health is at less than 61, the task is equal to nearest tavern. The next if statement is the one that does most of the work as it says that if the task is equal to the nearest tavern, the bot will "bot.findDistance" of the myPos to the nearestTavern.</td>
 					</tr>
 	</tbody>	    
 <div id="vindimg">

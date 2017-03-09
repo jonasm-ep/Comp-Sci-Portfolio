@@ -151,7 +151,7 @@ function animate() {
         player2.style.top = parseInt(player2.style.top) - 5 +"px";
     }
     for(i = 0; i < bullets.length; i++){
-        bullets[i].move();
+        //bullets[i].move();
     }
     
 };

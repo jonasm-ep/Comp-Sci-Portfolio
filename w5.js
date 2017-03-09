@@ -248,6 +248,9 @@ function isColliding(player, projectile){
     else return true;
     
 };
+
+var dt;
+var lastUpdate;
 //this is the function of the entire game code that is runs the code 60x per sec
 function gameLoop(){
     animate();
@@ -264,6 +267,9 @@ function gameLoop(){
     }
     
     window.requestAnimationFrame(gameLoop);//runs all the animations used in the game: bullet movement, player movement etc.
+    var now = Date.now();
+    dt = now - lastUpdate;
+    lastUpdate = now;
 };
 
 

@@ -175,11 +175,11 @@ function Bullet(xpos, ypos){
         this.elem.style.top = this.ypos;
         bullets.push(this)
      }
-    //this makes the bullets move across the screen
+    //this makes the bullets move across the screen and fixes speed of the bullet
     this.move = function(){
-        var moveDir = 18;
+        var moveDir = 14;
         if (this.type === "bullet2") {
-           moveDir = -18;
+           moveDir = -14;
         }
         
         //Store the current style left in a temp variable

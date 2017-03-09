@@ -150,10 +150,6 @@ function animate() {
     if (player2Down && parseInt(player2.style.top) > 19) {
         player2.style.top = parseInt(player2.style.top) - 5 +"px";
     }
-    for(i = 0; i < bullets.length; i++){
-        //bullets[i].move();
-    }
-    
 };
 
 //setInterval(animate, 25); //player movement speed

@@ -179,7 +179,7 @@ function Bullet(xpos, ypos){
     this.move = function(){
         var moveDir = 18;
         if (this.type === "bullet2") {
-           moveDir = -18
+           moveDir = -18;
         }
         
         //Store the current style left in a temp variable

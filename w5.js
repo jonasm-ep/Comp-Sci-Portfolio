@@ -177,9 +177,9 @@ function Bullet(xpos, ypos){
      }
     //this makes the bullets move across the screen
     this.move = function(){
-        var moveDir = 6;
+        var moveDir = 18;
         if (this.type === "bullet2") {
-           moveDir = -6
+           moveDir = -18
         }
         
         //Store the current style left in a temp variable
